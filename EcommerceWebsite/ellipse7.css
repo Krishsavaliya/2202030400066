@@ -1,0 +1,16 @@
+.ellipse7-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.ellipse7-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.ellipse7-ellipse7 {
+  width: 121px;
+  height: 121px;
+}

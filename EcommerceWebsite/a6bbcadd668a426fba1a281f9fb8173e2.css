@@ -1,0 +1,17 @@
+.a6bbcadd668a426fba1a281f9fb8173e2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.a6bbcadd668a426fba1a281f9fb8173e2-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.a6bbcadd668a426fba1a281f9fb8173e2-a6bbcadd668a426fba1a281f9fb8173e2 {
+  width: 88px;
+  height: 88px;
+  border-radius: 100px;
+}

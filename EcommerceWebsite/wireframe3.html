@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Basic:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Basic:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kenia:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Basic:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kavivanar:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gruppo:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./wireframe3.css" rel="stylesheet" />
+
+      <div class="wireframe3-container">
+        <div class="wireframe3-wireframe3">
+          <img
+            src="public/external/lgobg4106-hes-200h.png"
+            alt="LgoBG4106"
+            class="wireframe3-lgo-bg"
+          />
+          <span class="wireframe3-text"><span>GenShoes</span></span>
+          <img
+            src="public/external/a6bbcadd668a426fba1a281f9fb8173e17206-b6hc-200h.png"
+            alt="a6bbcadd668a426fba1a281f9fb8173e17206"
+            class="wireframe3-a6bbcadd668a426fba1a281f9fb8173e1"
+          />
+          <div class="wireframe3-frame1">
+            <img
+              src="public/external/bg5149-can-1600w.png"
+              alt="BG5149"
+              class="wireframe3-bg"
+            />
+            <div class="wireframe3-subject">
+              <img
+                src="public/external/shoe15152-zu6i-1200h.png"
+                alt="Shoe15152"
+                class="wireframe3-shoe1"
+              />
+              <img
+                src="public/external/shadow5153-jk1-200h.png"
+                alt="Shadow5153"
+                class="wireframe3-shadow"
+              />
+              <img
+                src="public/external/ellipse15154-kmg-200h.png"
+                alt="Ellipse15154"
+                class="wireframe3-ellipse1"
+              />
+              <img
+                src="public/external/ellipse25155-q8zd-200h.png"
+                alt="Ellipse25155"
+                class="wireframe3-ellipse2"
+              />
+            </div>
+            <div class="wireframe3-text-section">
+              <img
+                src="public/external/ellipse35157-w21e-200h.png"
+                alt="Ellipse35157"
+                class="wireframe3-ellipse3"
+              />
+              <span class="wireframe3-text02"><span>AIR MARS</span></span>
+              <span class="wireframe3-text04">
+                <span>Nike Jordan Mars 270</span>
+              </span>
+              <img
+                src="public/external/rectangle25160-im87-200h.png"
+                alt="Rectangle25160"
+                class="wireframe3-rectangle2"
+              />
+              <span class="wireframe3-text06"><span>ADD TO CART</span></span>
+              <span class="wireframe3-text08">
+                <span class="wireframe3-text09">
+                  Nothing as fly, nothing as comfortable, nothing as proven -
+                  the
+                </span>
+                <span class="wireframe3-text10">Nike Air Jordan Mars 270</span>
+                <span>
+                  stays true to it’s roots with the iconic waffle sole and
+                  classic TPU accents.
+                </span>
+              </span>
+              <span class="wireframe3-text12"><span>$98</span></span>
+            </div>
+            <div class="wireframe3-next-button">
+              <span class="wireframe3-text14"><span>NEXT</span></span>
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle47209-b9jk-200h.png"
+            alt="Rectangle47209"
+            class="wireframe3-rectangle4"
+          />
+          <img
+            src="public/external/rectangle57210-o1j7-200h.png"
+            alt="Rectangle57210"
+            class="wireframe3-rectangle5"
+          />
+          <div class="wireframe3-frame2">
+            <img
+              src="public/external/bg7212-mnm-1600w.png"
+              alt="BG7212"
+              class="wireframe3-bg1"
+            />
+            <div class="wireframe3-subject1">
+              <img
+                src="public/external/ellipse37214-y6kr-300h.png"
+                alt="Ellipse37214"
+                class="wireframe3-ellipse31"
+              />
+              <img
+                src="public/external/shoes7215-g4s-1000w.png"
+                alt="Shoes7215"
+                class="wireframe3-shoes"
+              />
+              <img
+                src="public/external/shadow7216-8oyh-200h.png"
+                alt="Shadow7216"
+                class="wireframe3-shadow1"
+              />
+              <img
+                src="public/external/ellipse17217-zmfs-200h.png"
+                alt="Ellipse17217"
+                class="wireframe3-ellipse11"
+              />
+              <img
+                src="public/external/ellipse27218-lte6-200h.png"
+                alt="Ellipse27218"
+                class="wireframe3-ellipse21"
+              />
+            </div>
+            <div class="wireframe3-text-section1">
+              <span class="wireframe3-text16"><span>AIR MAX</span></span>
+              <span class="wireframe3-text18">
+                <span>NIKE AIR MAX 90</span>
+              </span>
+              <img
+                src="public/external/rectangle27222-hlz-200h.png"
+                alt="Rectangle27222"
+                class="wireframe3-rectangle21"
+              />
+              <span class="wireframe3-text20"><span>ADD TO CART</span></span>
+              <span class="wireframe3-text22">
+                <span>
+                  Nothing as fly, nothing as comfortable, nothing as proven -
+                  the Nike Air Max 90 stays true to it’s roots with the iconic
+                  waffle sole, stitched overlays and classic TPU accents.
+                </span>
+              </span>
+              <span class="wireframe3-text24"><span>$100</span></span>
+              <img
+                src="public/external/ellipse47226-1mbj-200h.png"
+                alt="Ellipse47226"
+                class="wireframe3-ellipse4"
+              />
+            </div>
+            <div class="wireframe3-next-button1">
+              <span class="wireframe3-text26"><span>NEXT</span></span>
+            </div>
+          </div>
+          <div class="wireframe3-frame3">
+            <img
+              src="public/external/bg7241-qbob-900h.png"
+              alt="BG7241"
+              class="wireframe3-bg2"
+            />
+            <div class="wireframe3-subject2">
+              <img
+                src="public/external/shoes7243-9dhn-1200w.png"
+                alt="Shoes7243"
+                class="wireframe3-shoes1"
+              />
+              <img
+                src="public/external/shadow7244-ek5o-200h.png"
+                alt="Shadow7244"
+                class="wireframe3-shadow2"
+              />
+              <img
+                src="public/external/ellipse17245-fw9t-200h.png"
+                alt="Ellipse17245"
+                class="wireframe3-ellipse12"
+              />
+            </div>
+            <div class="wireframe3-text-section2">
+              <span class="wireframe3-text28"><span>SB MAX</span></span>
+              <span class="wireframe3-text30">
+                <span>Nike SB Stefan Janoski Max L</span>
+              </span>
+              <img
+                src="public/external/rectangle27249-wz-200h.png"
+                alt="Rectangle27249"
+                class="wireframe3-rectangle22"
+              />
+              <span class="wireframe3-text32"><span>ADD TO CART</span></span>
+              <span class="wireframe3-text34">
+                <span>
+                  What does "L" mean? I'm not going to beat around the bush. It
+                  means leather.&nbsp;So, as you would imagine, the uppers of
+                  these shoes are made from leather. The comfort comes from
+                  Nike's world renowned heel bubble and extremely lightweight
+                  design, making this shoe such a desirable piece in almost
+                  anybody's wardrobe. You can't think of Nike SB and not
+                  instantly think of the classic Janoski design.
+                </span>
+              </span>
+              <span class="wireframe3-text36"><span>$59</span></span>
+              <img
+                src="public/external/ellipse47253-mspm-200h.png"
+                alt="Ellipse47253"
+                class="wireframe3-ellipse41"
+              />
+            </div>
+            <div class="wireframe3-next-button2">
+              <span class="wireframe3-text38"><span>NEXT</span></span>
+            </div>
+          </div>
+          <img
+            src="public/external/rectangle77266-buf9-500h.png"
+            alt="Rectangle77266"
+            class="wireframe3-rectangle7"
+          />
+          <img
+            src="public/external/rectangle67239-kt4f-200h.png"
+            alt="Rectangle67239"
+            class="wireframe3-rectangle6"
+          />
+          <span class="wireframe3-text40">
+            <span class="wireframe3-text41">
+              <span>About</span>
+              <br />
+              <span></span>
+            </span>
+            <span class="wireframe3-text45">
+              <span></span>
+              <br />
+              <span></span>
+            </span>
+            <span>
+              <span>
+                We champion continual progress for athletes and sport by taking
+                action to help athletes reach their potential.
+              </span>
+              <br />
+              <span></span>
+              <br />
+              <span></span>
+              <br />
+              <span>
+                Every job at GenShoes, Inc. is grounded in a team-first mindset,
+                cultivating a culture of innovation and a shared purpose to
+                leave an enduring impact.
+              </span>
+            </span>
+          </span>
+          <div class="wireframe3-frameicontwitteroriginal">
+            <img
+              src="public/external/vector7276-mpl.svg"
+              alt="Vector7276"
+              class="wireframe3-vector"
+            />
+          </div>
+          <div class="wireframe3-frameiconinstagramicon">
+            <img
+              src="public/external/c7287-lo2k.svg"
+              alt="c7287"
+              class="wireframe3-c"
+            />
+            <img
+              src="public/external/c7288-dyjt.svg"
+              alt="c7288"
+              class="wireframe3-c1"
+            />
+            <img
+              src="public/external/c7289-w6s4.svg"
+              alt="c7289"
+              class="wireframe3-c2"
+            />
+            <div class="wireframe3-group">
+              <img
+                src="public/external/vector7291-kzvc.svg"
+                alt="Vector7291"
+                class="wireframe3-vector1"
+              />
+              <img
+                src="public/external/vector7292-t5hp.svg"
+                alt="Vector7292"
+                class="wireframe3-vector2"
+              />
+              <img
+                src="public/external/vector7293-v4ca.svg"
+                alt="Vector7293"
+                class="wireframe3-vector3"
+              />
+            </div>
+          </div>
+          <div class="wireframe3-frameiconfacebookicon">
+            <img
+              src="public/external/vector7272-ycno.svg"
+              alt="Vector7272"
+              class="wireframe3-vector4"
+            />
+            <img
+              src="public/external/vector7273-a3wek.svg"
+              alt="Vector7273"
+              class="wireframe3-vector5"
+            />
+          </div>
+          <div class="wireframe3-frameiconyoutube">
+            <img
+              src="public/external/vector7282-v1s8.svg"
+              alt="Vector7282"
+              class="wireframe3-vector6"
+            />
+            <img
+              src="public/external/vector7283-0egg.svg"
+              alt="Vector7283"
+              class="wireframe3-vector7"
+            />
+            <img
+              src="public/external/vector7284-5ao.svg"
+              alt="Vector7284"
+              class="wireframe3-vector8"
+            />
+          </div>
+          <img
+            src="public/external/cartlogo7295-8emo.svg"
+            alt="cartlogo7295"
+            class="wireframe3-cartlogo"
+          />
+          <img
+            src="public/external/exit17299-fedv-200h.png"
+            alt="exit17299"
+            class="wireframe3-exit1"
+          />
+          <img
+            src="public/external/ellipse57445-8xqg-200h.png"
+            alt="Ellipse57445"
+            class="wireframe3-ellipse5"
+          />
+          <img
+            src="public/external/ellipse57446-kqtjp-200h.png"
+            alt="Ellipse57446"
+            class="wireframe3-ellipse51"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
